@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { ArrowDown, BookOpen, Calendar, LampDesk, Sparkles } from "lucide-react";
+import heroIllustrationSrc from "@/assets/images/hero_library_scene_1794753858832.jpg";
 import { collections } from "@/lib/devshelf-catalog";
 import { useLibrary } from "@/lib/library-storage";
 
-const HERO_ILLUSTRATION_SRC = "/src/assets/images/hero_library_scene_1794753858832.jpg";
+const HERO_ILLUSTRATION_SRC = heroIllustrationSrc;
 
 export function HeroSection() {
   const { openMysteryBook, allAvailableBooks, lampLit, toggleLamp } = useLibrary();

@@ -10,6 +10,7 @@ import {
   Search,
   Sparkles,
 } from "lucide-react";
+import emptySearchImg from "@/assets/images/empty_search_illustration_1794753860858.jpg";
 import { Book } from "@/components/Book";
 import { CategoryFilters } from "@/components/CategoryFilters";
 import { LearningAdventures } from "@/components/LearningAdventures";
@@ -23,7 +24,7 @@ import {
 import { getBookEnrichment } from "@/lib/devshelf-enrichments";
 import { useLibrary } from "@/lib/library-storage";
 
-const EMPTY_SEARCH_IMG = "/src/assets/images/empty_search_illustration_1794753860858.jpg";
+const EMPTY_SEARCH_IMG = emptySearchImg;
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 export function ExplorePage() {

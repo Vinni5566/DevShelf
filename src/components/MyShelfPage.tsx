@@ -1,13 +1,14 @@
 import { useMemo, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, Bookmark, ExternalLink, NotebookPen, Shuffle, Trash2 } from "lucide-react";
+import emptyShelfImg from "@/assets/images/empty_shelf_illustration_1794753861020.jpg";
 import { Book } from "@/components/Book";
 import { ReadingPassport } from "@/components/ReadingPassport";
 import { BrassBookend } from "@/components/ShelfProps";
 import { TechStacksSection } from "@/components/TechStacksSection";
 import { useLibrary } from "@/lib/library-storage";
 
-const EMPTY_SHELF_IMG = "/src/assets/images/empty_shelf_illustration_1794753861020.jpg";
+const EMPTY_SHELF_IMG = emptyShelfImg;
 
 export function MyShelfPage() {
   const {
