@@ -4,7 +4,7 @@
 
 ### _Somewhere between curiosity and code: the internet's little library for developers._
 
-Browse **57+ programming languages, frameworks, design systems, and spatial tools** bound as physical 3D volumes on warm wooden shelves.
+Browse **58+ programming languages, frameworks, design systems, and spatial tools** bound as physical 3D volumes on warm wooden shelves.
 
 ![DevShelf Hero Illustration](./src/assets/images/hero_library_scene_1794753858832.jpg)
 
@@ -52,18 +52,18 @@ Most developer directories read like spreadsheets: sterile grids of logos, tags,
 
 ## The Ten Curated Shelves
 
-| Shelf | Collection                      | Focus                                                              |
-| :---: | :------------------------------ | :----------------------------------------------------------------- |
-| `01`  | **The Language Lounge**         | Python, Java, JavaScript, TypeScript, C++, Go, Rust                |
-| `02`  | **The Frontend Atelier**        | React, Next.js, Vue, Angular, HTML5, CSS3, Tailwind CSS            |
-| `03`  | **The Backend Archive**         | Node.js, Express, Django, FastAPI, Spring Boot                     |
-| `04`  | **The Data Room**               | PostgreSQL, MongoDB, Redis, MySQL, Firebase                        |
-| `05`  | **The Machine Learning Corner** | PyTorch, TensorFlow, scikit-learn, Hugging Face, OpenAI            |
-| `06`  | **The Workshop**                | Git, GitHub, Docker, Kubernetes, Postman, VS Code                  |
-| `07`  | **The Design Studio**           | Figma, Framer, Storybook, Notion                                   |
-| `08`  | **The Spatial Pavilion**        | Three.js, WebXR, Unity, Unreal Engine, Babylon.js, A-Frame         |
-| `09`  | **The UI/UX Reading Room**      | Material Design, Apple HIG, Radix UI, WAI-ARIA, Laws of UX, Lucide |
-| `10`  | **The Mobile & App Studio**     | React Native, Flutter, SwiftUI, Jetpack Compose, Expo, Kotlin      |
+| Shelf | Collection                      | Focus                                                               |
+| :---: | :------------------------------ | :------------------------------------------------------------------ |
+| `01`  | **The Language Lounge**         | Python, Java, JavaScript, TypeScript, C++, Go, Rust                 |
+| `02`  | **The Frontend Atelier**        | React, Next.js, Vue, Angular, HTML5, CSS3, Tailwind CSS             |
+| `03`  | **The Backend Archive**         | Node.js, Express, Django, FastAPI, Spring Boot                      |
+| `04`  | **The Data Room**               | PostgreSQL, MongoDB, Redis, MySQL, Firebase                         |
+| `05`  | **The Machine Learning Corner** | PyTorch, TensorFlow, scikit-learn, Hugging Face, OpenAI             |
+| `06`  | **The Workshop**                | Git, GitHub, Docker, Kubernetes, Postman, VS Code                   |
+| `07`  | **The Design Studio**           | Figma, Framer, Storybook, Notion                                    |
+| `08`  | **The Spatial Pavilion**        | Three.js, WebXR, Unity, Unreal Engine, Babylon.js, A-Frame          |
+| `09`  | **The UI/UX Reading Room**      | Material Design, Apple HIG, Radix UI, WAI-ARIA, Laws of UX, Lucide  |
+| `10`  | **The Mobile & App Studio**     | React Native, Flutter, SwiftUI, Jetpack Compose, Expo, Kotlin, Dart |
 
 ---
 
@@ -96,7 +96,7 @@ src/
 │   ├── LibrarianAssistant.tsx # Rule-based Owl / Cat / Ghost guide
 │   └── PersonalizeDrawer.tsx  # Wood theme, accent, mascot, texture & shelf order controls
 └── lib/
-    ├── devshelf-catalog.ts    # 10 shelves & 57 curated volumes
+    ├── devshelf-catalog.ts    # 10 shelves & 58 curated volumes
     ├── devshelf-enrichments.ts# Difficulty, fun facts, related books, edition ledger
     ├── devshelf-adventures.ts # Guided trails, secret rooms & passport stamp rules
     └── library-storage.tsx    # LocalStorage persistence + URL stack sharing

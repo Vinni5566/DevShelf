@@ -26,13 +26,14 @@ describe("App routing and catalog", () => {
 
   it("includes all 10 curated collections and valid documentation URLs", () => {
     expect(collections).toHaveLength(10);
-    expect(technologies).toHaveLength(57);
+    expect(technologies).toHaveLength(58);
     for (const tech of technologies) {
       expect(tech.docs).toMatch(/^https:\/\//);
     }
     expect(filterCatalog(technologies, "", "AR/VR").length).toBeGreaterThanOrEqual(6);
     expect(filterCatalog(technologies, "", "UI/UX").length).toBeGreaterThanOrEqual(6);
-    expect(filterCatalog(technologies, "", "App Dev").length).toBeGreaterThanOrEqual(6);
+    expect(filterCatalog(technologies, "", "App Dev").length).toBeGreaterThanOrEqual(7);
+    expect(filterCatalog(technologies, "dart", "App Dev").map((t) => t.id)).toContain("dart");
   });
 
   it("filters by name, category, and tags and sorts alphabetically", () => {

@@ -5,6 +5,7 @@ import {
   siBabylondotjs,
   siCplusplus,
   siCss,
+  siDart,
   siDjango,
   siDocker,
   siExpo,
@@ -105,6 +106,7 @@ const simpleIconMap: Record<string, SimpleIcon> = {
   "jetpack-compose": siJetpackcompose,
   expo: siExpo,
   kotlin: siKotlin,
+  dart: siDart,
 };
 
 type TechLogoProps = {

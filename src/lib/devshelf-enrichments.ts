@@ -716,7 +716,7 @@ export const bookEnrichments: Record<string, BookEnrichment> = {
       "Flutter renders every pixel itself using its Impeller graphics engine for consistent 120fps motion.",
     whyExplore:
       "Stateful hot reload and expressive widgets make cross-platform mobile design wonderfully fluid.",
-    relatedIds: ["material-design", "firebase", "react-native"],
+    relatedIds: ["dart", "material-design", "firebase"],
     edition: {
       version: "v3.29",
       lastChecked: "Nov 2026",
@@ -774,6 +774,19 @@ export const bookEnrichments: Record<string, BookEnrichment> = {
       version: "v2.1",
       lastChecked: "Nov 2026",
       releaseNote: "K2 compiler stable & guard conditions",
+    },
+  },
+  dart: {
+    difficulty: "Gentle Start",
+    funFact:
+      "Dart compiles both just-in-time for sub-second hot reload and ahead-of-time to ARM64 machine code.",
+    whyExplore:
+      "Sound null safety, pattern matching, and isolates make client app architecture remarkably clean.",
+    relatedIds: ["flutter", "kotlin", "typescript"],
+    edition: {
+      version: "v3.7",
+      lastChecked: "Nov 2026",
+      releaseNote: "Null-aware elements & wildcard variables",
     },
   },
   "book-of-shaders": {

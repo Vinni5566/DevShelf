@@ -1180,7 +1180,7 @@ export const technologies: Technology[] = [
     yearReleased: 2020,
   },
 
-  // 10. The Mobile & App Studio (App Dev): React Native, Flutter, SwiftUI, Jetpack Compose, Expo, Kotlin
+  // 10. The Mobile & App Studio (App Dev): React Native, Flutter, SwiftUI, Jetpack Compose, Expo, Kotlin, Dart
   {
     id: "react-native",
     catalogNo: "APP-01",
@@ -1298,6 +1298,27 @@ export const technologies: Technology[] = [
     thickness: 15,
     tags: ["mobile", "android", "multiplatform", "language"],
     yearReleased: 2011,
+  },
+  {
+    id: "dart",
+    catalogNo: "APP-07",
+    name: "Dart",
+    spineLabel: "DART",
+    category: "App Dev",
+    description:
+      "A client-optimized, sound null-safe language built for fast mobile, web, and desktop apps.",
+    curatorNote:
+      "Powers Flutter with ahead-of-time native compilation, isolates, and crisp async streams.",
+    docs: "https://dart.dev/docs",
+    docsLabel: "dart.dev",
+    cover: "butter",
+    template: "linen-framed",
+    height: 206,
+    width: 106,
+    thickness: 14,
+    tags: ["mobile", "flutter", "language", "cross-platform"],
+    yearReleased: 2011,
+    recentlyAdded: true,
   },
 ];
 

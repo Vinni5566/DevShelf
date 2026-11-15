@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#F8F3E9" />
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#51443C" stroke-opacity="0.18" stroke-width="2" />
+  <!-- Left Lavender Book -->
+  <rect x="11" y="15" width="13" height="35" rx="2.5" fill="#B7A3D0" stroke="#51443C" stroke-width="2.5" />
+  <line x1="15" y1="22" x2="20" y2="22" stroke="#51443C" stroke-width="2" stroke-linecap="round" />
+  <line x1="15" y1="43" x2="20" y2="43" stroke="#51443C" stroke-width="2" stroke-linecap="round" />
+  <!-- Center Butter Yellow Book -->
+  <rect x="24" y="10" width="15" height="40" rx="2.5" fill="#EBD99C" stroke="#51443C" stroke-width="2.5" />
+  <circle cx="31.5" cy="26" r="3.5" fill="#51443C" fill-opacity="0.2" stroke="#51443C" stroke-width="1.8" />
+  <line x1="28.5" y1="43" x2="34.5" y2="43" stroke="#51443C" stroke-width="2" stroke-linecap="round" />
+  <!-- Right Leaning Sage Book -->
+  <g transform="rotate(-6 45 31)">
+    <rect x="40" y="16" width="12.5" height="34" rx="2.5" fill="#A9BBA2" stroke="#51443C" stroke-width="2.5" />
+    <line x1="43.5" y1="23" x2="49" y2="23" stroke="#51443C" stroke-width="2" stroke-linecap="round" />
+  </g>
+  <!-- Warm Walnut Shelf Plank -->
+  <rect x="9" y="50" width="46" height="4.5" rx="1.5" fill="#80634E" stroke="#51443C" stroke-width="1.8" />
+</svg>
