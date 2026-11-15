@@ -8,7 +8,7 @@ import { useLibrary } from "@/lib/library-storage";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "DevShelf — An Immersive Digital Library" },
+      { title: "DevShelf" },
       {
         name: "description",
         content:

@@ -83,13 +83,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "DevShelf — An Immersive Digital Library for Developers" },
+      { title: "DevShelf" },
       {
         name: "description",
         content:
           "The internet's little library for curious developers. Browse languages, frameworks, and tools arranged as physical books on curated shelves.",
       },
-      { property: "og:title", content: "DevShelf — An Immersive Digital Library" },
+      { property: "og:title", content: "DevShelf" },
       {
         property: "og:description",
         content:
