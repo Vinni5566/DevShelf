@@ -67,7 +67,7 @@ export function Footer() {
               |
             </span>
             <a
-              href="https://github.com/Vinni5566/screenshot-match"
+              href="https://github.com/Vinni5566/devshelf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground"

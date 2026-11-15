@@ -1,5 +1,6 @@
 {
-  "name": "tanstack_start_ts",
+  "name": "devshelf",
+  "description": "An immersive digital library for curious developers where programming languages, frameworks, and developer tools live as interactive 3D books on curated wooden shelves.",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -75,7 +76,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
-    "@lovable.dev/vite-tanstack-config": "2.27.2",
     "@testing-library/jest-dom": "^6.6.0",
     "@testing-library/react": "^16.0.0",
     "@types/node": "^22.16.5",
