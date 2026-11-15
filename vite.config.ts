@@ -13,7 +13,9 @@ export default defineConfig(({ command }) => ({
     tanstackStart({
       server: { entry: "server" },
     }),
-    ...(command === "build" ? [nitro({ preset: "node-server" })] : []),
+    ...(command === "build"
+      ? [nitro({ preset: process.env.VERCEL ? "vercel" : "node-server" })]
+      : []),
     viteReact(),
   ],
   resolve: {
